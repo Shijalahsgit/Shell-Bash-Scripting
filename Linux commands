@@ -21,3 +21,105 @@ pwd	Print the current working directory
 pwd -L  : Display the logical current working directory
 pwd -P  : Display the physical current working directory (without symbolic links)
 
+
+Echo - Display a line of text
+-n - Don't add a new line at the end
+-e - Allow special characters like \n for new lines
+-E - Don't allow special characters 
+
+Cat -Concatenate and display files
+-n  Add numbers to each line
+-b - Add numbers only to lines with text
+-s - Remove extra empty lines
+-v - Show non-printing characters (except for tabs and end of line)
+-E -show $ at the end of line
+> used to create a new file and enter text contents from the terminal
+>> use to append text contents to an existing file from the terminal
+
+Cp - Copy files and directories
+-r - Copy all files and folders inside a directory
+-i - Ask before replacing files
+-u - Copy only if the source is newer
+-v - Verbose mode, show files being copied
+
+Mv - Move or Rename Files
+-i - Ask before replacing files
+-u - Move only if the source is newer
+-v - Verbose mode, show files being moved
+
+rm - Remove Files or Directories
+-r - Delete a folder and everything inside it
+-i - Ask before deleting each file
+-f - Force delete without asking
+-v - Verbose mode, show files being removed
+
+
+Touch - Change File Timestamps or create an empty file
+-a - Update only when the file was last read
+-m - Update only when the file was last changed
+-t - Set the timestamp to a specific time
+-c - Do not create any files
+
+mkdir - Make Directories
+-p - Create parent directories as needed
+-v - Show a message for each created directory
+-m - Set file mode (permissions)
+
+man : The man command is used to display the user manual of any command that can be run on the terminal.
+
+Grep - Search Text Using Patterns
+-i - Search ignoring case differences
+ (uppercase or lowercase)
+-r - Recursive Search
+-v - Invert Match
+
+Awk - Pattern Scanning and Processing Language
+-F - Field Separator
+-v - Assign Variable
+
+Cut - Remove Sections from Lines
+-d - Choose what separates the fields Specify a Delimiter
+-f - Select specific fields to display
+--complement - Show all fields except the selected ones
+
+Sort -Sort Lines of Text Files
+
+Tail - Display Last Part of Files
+
+Head - Display the beginning of a file
+
+ps - Snapshot of Current Processes
+
+Top - Display Linux Tasks
+
+Df - File System Disk Space Usage
+
+Du - File Space Usage
+
+Free - Display Free and Used Memory
+
+Kill - Terminate Processes
+
+Zip - package and compress (archive) files
+
+Unzip - Extract from ZIP archive
+
+Tar - An archiving utility
+
+Bash File Permissions and Ownership
+r: Read permission
+w: Write permission
+x: Execute permission
+
+0: No permission
+1: Execute permission
+2: Write permission
+3: Write and execute permissions
+4: Read permission
+5: Read and execute permissions
+6: Read and write permissions
+7: Read, write, and execute permissions
+
+chmod: Change file permissions
+chown: Change file ownership
+chgrp: Change group ownership
