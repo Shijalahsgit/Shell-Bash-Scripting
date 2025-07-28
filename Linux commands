@@ -1,1 +1,23 @@
+ls- List directory contents
+ls -l : Long listing format
+ls -a	: Include hidden files
+ls -lh	: -h  Human-readable sizes
+ls -t  : Sort by modification time
+ls -r  : Reverse order while sorting
+ls -R   : List subdirectories recursively
+ls -S   : Sort by file size
+ls -1  : List one file per line
+ls -d */	 : List directories themselves, not their contents
+ls -F	 : Append indicator (one of */=@|) to entries
+ls -l -a	: Using Multiple Options- ls-la, ls-ltr
+
+Cd- Change the current directory
+cd ..  : Move up one directory level
+cd ~:   : Change to the home directory
+cd -:  : Switch to the previous directory
+cd /:  : Change to the root directory
+
+pwd	Print the current working directory
+pwd -L  : Display the logical current working directory
+pwd -P  : Display the physical current working directory (without symbolic links)
 
